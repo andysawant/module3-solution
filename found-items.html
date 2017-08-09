@@ -6,7 +6,7 @@
       <div><strong>Name:</strong> {{ item.name }}</div>
       <div><strong>Description:</strong> {{ item.description }}</div>
     </td>
-    <td><button ng-click="menu.onRemove({index: $index});">Remove Item</button></td>
+    <td><button ng-click="menu.onRemove({index: $index});">Don't want this one!</button></td>
   </tr>
 </table>
 <div class="nothing-found" ng-show="!menu.foundItems || menu.foundItems.length === 0">Nothing found.</div>
